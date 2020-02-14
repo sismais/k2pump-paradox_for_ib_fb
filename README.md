@@ -58,7 +58,8 @@ Informe o local onde estão seus arquivos Paradox;
     * Ao abrir a tela, selecione a conexão ODBC que você criou;
     * Marque as opções desejadas (as mais usadas vem marcadas por padrão);
     * Obs: A recomendação é que você faça a migração para um banco de dados novo (vazio). Para ajudá-lo, na pasta /bin, existe um arquivo de nome "DB_NOTABLES.FDB", ao abrir o sistema, será criada uma cópia automática desse arquivo com o nome "DB_NOTABLES_NEW.FDB", use-o, se desejar;
-![Tela do Sistema](/static/img/tela_sistema.JPG)
+
+![Tela do Sistema](/static/img/tela_sistema.jpg "Tela do Sistema")
 
 03. Se você tiver problemas com a PRIMARY KEY no
 conversão, você pode fazer isso:
