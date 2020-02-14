@@ -49,13 +49,9 @@ Você precisa instalar o BDE (Borland Database Engine), com o BDE
 Administrador versão v5.01 (preferencialmente).
 Após a instalação, abra o Administrador do BDE e crie um nova conexão odbc do tipo STANTARD, e sete o banco para Paradox.
 Informe o local onde estão seus arquivos Paradox;
-
 ![Busca do BDE no menu Iniciar](/static/img/tela_bde_1.JPG "Busca do BDE no menu Iniciar")
-
 ![Criando uma nova conexão ODBC](/static/img/tela_bde_2.JPG "Criando uma nova conexão ODBC")
-
 ![Selecionado o tipo da conexão ODBC para o Paradox](/static/img/tela_bde_3.JPG "Selecionado o tipo da conexão ODBC para o Paradox")
-
 ![Configurando o local dos arquivos](/static/img/tela_bde_4.JPG "Configurando o local dos arquivos")
 
 02. Selecione as opções desejadas, e inicie a migração
