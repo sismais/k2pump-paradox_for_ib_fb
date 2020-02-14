@@ -2,6 +2,8 @@
 
 Projeto legado, criado em Delphi 7 para a migração/conversão de dados em Paradox para Interbase ou Firebird (<= 2.5)
 
+![Tela do Sistema](/static/img/tela_sistema.jpg "Tela do Sistema")
+
 - Também será útil se você quer importados de outro sistema para o seu.
 Você pode converter primeiro para Firebird/Interbase e depois gerar scripts de SQL para Insert e Update com ferramentas como IBExpert, FlamminRobin, DBeaver, entre outros.
 
@@ -59,17 +61,11 @@ Informe o local onde estão seus arquivos Paradox;
     * Marque as opções desejadas (as mais usadas vem marcadas por padrão);
     * Obs: A recomendação é que você faça a migração para um banco de dados novo (vazio). Para ajudá-lo, na pasta /bin, existe um arquivo de nome "DB_NOTABLES.FDB", ao abrir o sistema, será criada uma cópia automática desse arquivo com o nome "DB_NOTABLES_NEW.FDB", use-o, se desejar;
 
-![Tela do Sistema](/static/img/tela_sistema.jpg "Tela do Sistema")
-
 03. Se você tiver problemas com a PRIMARY KEY no
 conversão, você pode fazer isso:
-03.01 Após a criação da tabela no novo banco de dados,
-acessá-lo com um administrador SGDB (como IBExpert,
-FlamminRobin, etc.) e remova o problema
-chave primária da tabela.
-03.02 Desmarque "Criar instruções da tabela" e, em seguida,
-Verifica
-a tabela na lista de tabelas e inicie a conversão novamente;
+	* Após a criação da tabela no novo banco de dados, acesse-o com um administrador SGDB (como IBExpert, FlammeRobin, etc.) e Exclua a Chave Primária da tabela;
+	* Desmarque "Create table statements" e em seguida, marque a tabela para migrar novamente, inicie a conversão;
+	* Depois você pode tentar ver qual o registro duplicado e tentar recriar a chave primária;
 
 ## Como utilizar? (Edição do Código Fonte) ##
 
